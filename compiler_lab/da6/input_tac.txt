@@ -1,0 +1,24 @@
+L1:
+t1 = n1
+if i >= t1
+goto L4
+j = 0
+L2:
+t2 = n1
+t3 = t2 - 1
+if j >= t3
+goto L3
+t4 = arr[j]
+t5 = arr[j + 1]
+if t4 <= t5
+goto L5
+temp = t4
+arr[j] = t5
+arr[j + 1] = temp
+L5:
+j = j + 1
+goto L2
+L3:
+i = i + 1
+goto L1
+L4:

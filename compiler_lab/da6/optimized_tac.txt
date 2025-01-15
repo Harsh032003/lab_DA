@@ -1,0 +1,10 @@
+if i >= t1
+j = 0
+if j >= t3
+t4 = arr[j]
+t5 = arr[j + 1]
+if t4 <= t5
+arr[j] = t5
+arr[j + 1] = temp
+j = j + 1
+i = i + 1

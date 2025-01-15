@@ -1,0 +1,6 @@
+BEGIN
+    FOR i IN REVERSE 1..100 LOOP
+        DBMS_OUTPUT.PUT_LINE(i);
+    END LOOP;
+END;
+/
